@@ -1,2 +1,2 @@
-# rods-ai-starter
-Android starter app used by Rods AI to package generated apps as APKs
+# Rods AI starter
+A tiny Android app that shows the web app stored in `assets/www`. Rods AI swaps in generated apps and re-signs the APK in the browser.

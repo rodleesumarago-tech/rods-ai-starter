@@ -1,0 +1,16 @@
+plugins { id 'com.android.application' }
+android {
+  namespace 'com.rodsai.app'
+  compileSdk 34
+  defaultConfig {
+    applicationId 'com.rodsai.app'
+    minSdk 21
+    targetSdk 29
+    versionCode 1
+    versionName '1.0'
+  }
+  buildTypes { debug { minifyEnabled false } }
+  androidResources { noCompress += ['arsc'] }
+  compileOptions { sourceCompatibility JavaVersion.VERSION_1_8; targetCompatibility JavaVersion.VERSION_1_8 }
+  lint { abortOnError false; checkReleaseBuilds false }
+}
